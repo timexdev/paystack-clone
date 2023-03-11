@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paystack</title>
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="index.css">
+    <!-- BOOTSTRAP CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- BOOTSTRAP Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<style>
+    body{
+        color:rgba(1, 27, 51, 0.897);;
+    }
+</style>
+<body>
+     <!-- Header top info -->
+     <div id="top-info" class="container-fluid">
+        <p align="center" class="py-2">  New: Create delightful, in-person payment experiences with paystack terminal <i class="bi bi-arrow-right"></i></p>
+     </div>
+     
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-4" style="color:rgb(40, 29, 114);" href="#">
+            <img src="images/paystack_logo-removebg-preview.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-center">
+            Paystack
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Why paystack?</a>
+                    <ul class="dropdown-menu border-0 shadow">
+                      <li class="mb-3"><a class="dropdown-item" href="#">why choose Paystack</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">Success Rates</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">Demo</a></li>
+                    </ul>
+              <li class="nav-item">
+                <a class="nav-link active fw-semibold" href="#">Customers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-semibold" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a style="margin-right: 180px;" class="nav-link active dropdown-toggle fw-semibold " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Learn</a>
+                    <ul class="dropdown-menu border-0 shadow">
+                      <li class="mb-3"><a class="dropdown-item" href="#">Blog</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">AGuides</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">Video Tutorial</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">Decode Fintech</a></li>
+                    </ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Developers</a>
+                    <ul class="dropdown-menu border-0 shadow">
+                      <li class="mb-3"><a class="dropdown-item" href="#">Overview</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">Documentation</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">Integration</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">Status Page</a></li>
+                    </ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Support</a>
+                    <ul class="dropdown-menu  border-0 shadow">
+                      <li class="mb-3"><a class="dropdown-item" href="#">Quick Help</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">Contact Us</a></li>
+                      <li class="mb-3"><a class="dropdown-item" href="#">Why was I debited</a></li>
+                    </ul>
+              <li class="nav-item">
+                <a class="nav-link active fw-semibold me-2" href="#">Login</a>
+              </li>
+              </li>
+            </ul>
+            <a class="btn btn-success fw-semibold" href="">Creat new account</a>
+          </div>
+        </div>
+      </nav>
+
+    <header>
+          <!-- Page header content -->
+          <div id="page-head-content" class="container-fluid">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-md-6 col-12">
+                        <h1 class="fw-bold">Modern online and offline payments for Africa</h1>
+                        <p class="fw-semibold" style="font-size: 3vmin;">Paystack helps businesses in Africa get paid by anyone, anywhere in the world</p>
+                        <a class="btn btn-success fw-bold py-3 px-4" href="">Create new account</a>
+                        <a class="btn text-success fw-bold" href="">or contact sales</a>
+                    </div>   
+                </div>
+                <div class="row pt-5">
+                    <div class="col-md-6 col-12">
+                        <p class="fw-semibold">Trusted by over 70,000 businesses</p>
+                        <div>
+                            <img src="images/Header logo images/Dominos-Plain.svg" alt="Domino" width="25%" style="margin-right: 15px;">
+                            <img src="images/Header logo images/MTN-Plain.svg" alt="MTN" width="12%" style="margin-right: 15px;">
+                            <img src="images/Header logo images/Bolt-Stack-Blue_200304_153027.svg" alt="bolt" width="9%" style="margin-right: 15px;">
+                            <img class="d-none d-md-inline" src="images/Header logo images/Axa-mansard-_-Plain.svg" alt="Axa-mansdard" width="30%">
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-12 pt-5"></div>
+                    <div class="col-md-5 col-12 justify-content-left">
+                        <p class="fw-bold">Watch MTN Chief Transformation Officer, Olubayo Adekanmbi, discuss working with Paystack</p>  
+                    </div>
+                </div>
+            </div>
+          </div>
+    </header>
+
+    <!--WEB MAIN PAGE -->
+    <main>
+      <!-- Payment channels, APIs and protection -->
+        <section class="section-1 pb-5">
+        <div class="container pt-5 pb-5">
+            <div class="row pt-5">
+                <div class="col-md-6 col-12">
+                    <h1 class="fw-bold">Simple, easy payments</h1>
+                    <p id="simp" class=" pt-3">Building a business is hard. Getting paid shouldn't be.</p>
+                </div>
+            </div>
+            <!-- Payment channels -->
+            <div class="row pt-5">
+              <div class="col-md-6 col-12 pt-5">
+                <img src="images/Collect-Payments-for-Multiple-Channels-1.1.gif" alt="Payment channels" width="100%">
+              </div>
+  
+              <div class="col-md-6 c0l-12 pt-5">
+                <div>
+                  <h1 class="fw-bold">Delight customers with a seamless payments experience</h1>
+                  <p style="font-size: 3vmin;" >Give your customers the gift of modern, frictionless, painless payments. Integrate Paystack once and let your customers pay you however they want.</p>
+                </div>
+                
+                <div class="row">
+                  <div class="col-md-6 col-12">
+                    <div>
+                      <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Card</p>
+                      <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Bank Account</p>
+                      <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Bank Transfer</p>
+                      <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>USSD</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <div>
+                      <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Apple Pay</p>
+                      <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Visa</p>
+                      <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Mobile Money</p>
+                      <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>POS</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h1 class="fw-bold">Enjoy phenomenal transaction success rates</h1>
+                  <p style="font-size: 3vmin;">We automatically route payments through the most optimal channels, ensuring the highest transaction success rates in the market.</p>
+                  <a class="btn text-success fw-bold" href="#"> <i class="bi bi-arrow-right-circle"></i> Find out how we achieve high success rate</a>
+                </div>
+              </div>
+            </div>
+            <!-- Payment APIs -->
+            <div class="row pt-5">
+              <div class="col-md-6 col-12 pt-5">
+                <h1 class="fw-bold pe-" style="font-size: 5.5vmin;">Build custom payments experiences with well-documented APIs</h1>
+                <p style="font-size: 3vmin;">Developers love our thorough, well-documented APIs that let you to build everything from simple weekend projects, to complex financial products serving hundreds of thousands of customers. If you can imagine it, you can build it with Paystack.</p>
+                <div class="pe-5">
+                  <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Collect one-time and recurring payments from your app or website</p>
+                  <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Make instant transfers</p>
+                  <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Retrieve all your transaction and customer data</p>
+                  <p class="fw-bold"> <i class="bi bi-check px-1 text-success fw-bold fs-4"></i>Verify the identity of customers</p>
+                </div>
+                <a class="btn text-success fw-bold" href="#"> <i class="bi bi-arrow-right-circle"></i> Paystack API Quickstar</a>
+              </div>
+              <div class="col-md-6 col-12 pt-5">
+                <img src="images/Robust-Suite-of-APIs-Opt.png" alt="Robust API" width="100%">
+              </div>
+            </div>
+            <!-- Customers Protection -->
+            <div class="row pt-5">
+              <div class="col-md-6 d-none pt-5 d-md-inline">
+                <video src="video/Advanced-Fraud-Protection.mp4" alt="Video" autoplay controls loop width="100%" class="pt-5"></video> 
+              </div>
+              <div class="col-md-6 col- pt-5 ">
+                <div class="pt-5 pb-5">
+                  <h1 class="fw-bold pe-" style="font-size: 5.5vmin;">Protect yourself and your customers with advanced fraud detection</h1>
+                  <p style="font-size: 3vmin;">Paystack’s combination of automated and manual fraud systems protect you from fraudulent transactions and associated chargeback claims.</p>
+                </div>
+                <div class="pt-5">
+                  <h1 class="fw-bold pe-2" style="font-size: 5.5vmin;">Detailed reporting for accounting, reconciliation, and audits</h1>
+                  <p style="font-size: 3vmin;">Understand your customers’ purchase patterns and do easy reconciliations with a robust data Dashboard and easy exports.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Purpose of Paystack -->
+      <section class="section-2 py-5">
+        <div class="container-fluid py-5">
+          <div class="container">
+            <div class="row pb-5">
+              <div class="col-md-8 col-12">
+                <h1 class="fw-bold">Trusted by 80,000+ businesses</h1>
+                <p style="font-size: 3vmin;">Thousands of organizations of all sizes trust Paystack to grow their business.</p>
+              </div>
+            </div>
+            <!-- Paystack purpose Cards -->
+            <div class="row">
+              <!-- Card-1 -->
+              <div class="col-md-4 col-12 mb-3">
+                <div class="card border border-0 shadow">
+                  <div class="card-body px-4 py-5">
+                    <img src="images/8+/For-International-Businesses_180823_165939.svg" alt="Global business" width="35%">
+                    <h4 class="fw-bold pt-4 pb-3">Paystack for <br> Global Brands</h4>
+                    <div style="height: 85px;">
+                      <p>We help global brands accept payments from across Africa</p>
+                    </div>
+                    <a style="color: rgb(1, 27, 51);" class="fw-bold text-decoration-none" href="#"> <i class="bi bi-arrow-right-circle pe-2 text-success"></i>Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Card-2 -->
+              <div class="col-md-4 col-12 mb-3">
+                <div class="card border border-0 shadow">
+                  <div class="card-body px-4 py-5">
+                   <img src="images/8+/For-Entrepreneurs_180823_165709.svg" alt="Enterpreneur" width="38%">
+                   <h4 class="fw-bold pt-4 pb-3">Paystack for <br> Entrepreneurs</h4>
+                   <div style="height: 85px;">
+                    <p>From startup to scale-up, we can support you at every stage of your businesses’ growth</p>
+                   </div>
+                   <a style="color: rgb(1, 27, 51);" class="fw-bold text-decoration-none" href="#"> <i class="bi bi-arrow-right-circle pe-2 text-success"></i>Learn more</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Card-3 -->
+              <div class="col-md-4 col-12 mb-3">
+                <div class="card border border-0 shadow">
+                  <div class="card-body px-4 py-5">
+                    <img src="images/8+/For-Large-Corporations_180823_165502.svg" alt="Large Cooperation" width="37%">
+                    <h4 class="fw-bold pt-4 pb-3">Paystack for <br> Large Organizations</h4>
+                    <div>
+                      <p>Paystack helps many of the largest corporate and government organizations in Nigeria get paid quickly and securely.</p>
+                    </div>
+                     <a style="color: rgb(1, 27, 51);" class="fw-bold text-decoration-none" href="#"> <i class="bi bi-arrow-right-circle pe-2 text-success"></i>Learn more</a>
+                  </div>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Brands paystack have powered thier growth -->
+      <section class="growth-brands pt-5">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-md-7 col-12">
+              <h1 class="fw-bold">Powering growth for amazing businesses</h1>
+              <p class="pe-5" style="font-size: 3vmin;">Paystack is a growth engine for a new generation of innovative, forward-looking organizations operating in Africa.</p>
+            </div>
+          </div>
+          <div class="my-5">
+              <img src="images/brand logos/Abia-State-University.svg" alt="" width="20%" class="mx-4">
+              <img src="images/brand logos/Air-Peace-Stack-Blue_200305_154114.svg" alt="" width="20%" class="mx-4">
+              <img src="images/brand logos/Ariiya-Stack-Blue_200304_155307.svg" alt="" width="20%" class="mx-4">
+              <img src="images/brand logos/carbon-dark.svg" alt="" width="20%" class="mx-4"> 
+          </div>
+          <div class="mb-5 d-none d-md-inline-block">
+            <img src="images/brand logos/FilmHouse-Stack-Blue_200304_153641.svg" alt="" width="20%" class="mx-4">
+            <img src="images/brand logos/GIGM-Plain_180827_172142 (1).svg" alt="" width="20%" class="mx-4">
+            <img src="images/brand logos/Ibom-Air-Stack-Blue_200304_154259.svg" alt="" width="20%" class="mx-4">
+            <img src="images/brand logos/kuda-Stack-Blue_200304_154345.svg" alt="" width="20%" class="mx-4">
+          </div>
+          <div class="mb-5 d-none d-md-inline-block">
+            <img src="images/brand logos/Lagos-Internal-Revenue-Service.svg" alt="" width="20%" class="mx-4">
+            <img src="images/brand logos/Piggyvest-Stack-Blue_200304_153734.svg" alt="" width="20%" class="mx-4">
+            <img src="images/brand logos/Smile-Plain_180827_172218.svg" alt="" width="20%" class="mx-4">
+            <img src="images/brand logos/GIGM-Plain_180827_172142 (1).svg" alt="" width="20%" class="mx-4">
+          </div>
+        </div>
+      </section>
+      
+      <!-- Global Partners -->
+      <section class="section-3 py-5">
+        <div class="container-fluid py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <h1 class="fw-bold pb-3">Backed by strong global partners</h1>
+                <p style="font-size: 3vmin;">Paystack is backed by notable investors as well as some of the best payments companies on the planet.</p>
+              </div>
+            </div>
+            <div class="row pt-5">
+              <!--Partner-1 card  -->
+              <div class="col-md-4 col-12 mb-3">
+                <div class="card border border-1 ">
+                  <div class="card-body px-4 py-5">
+                    <img src="images/partners/Stripe.png" alt="stripe" width="22%">
+                    <p class="py-4">Paystack is highly technical and fanatically customer oriented. We’re excited to back such people in one of the world’s fastest-growing regions.</p>
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="images/partners/patrick-collison-headshot.jpg" alt="stripe CEO" class="rounded-circle" width="90%">
+                      </div>
+                      <div class="col-9">
+                        <span class="fw-bold">Patrick Collison</span> <br>
+                        <span style="font-size: 13px;">CEO, Stripe</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Partner-2 card  -->
+              <div class="col-md-4 col-12 mb-3">
+                <div class="card border border-1">
+                  <div class="card-body px-4 py-5">
+                    <img src="images/partners/Visa-_-Color.png" alt="visa" width="22%">
+                    <p class="pt-4 pb-2">Our investment in Paystack aligns with the kind of investments we look for - those that will help extend our reach into the global commerce ecosystem</p>
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="images/partners/otto-williams.jpeg" alt="Visa CEO" class="rounded-circle" width="90%">
+                      </div>
+                      <div class="col-9">
+                        <span class="fw-bold">Otto Williams</span> <br>
+                        <span style="font-size: 13px;">Head of Strategic Partnerships, Fintech & Ventures CEMEA, Visa</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Partner-3 card -->
+              <div class="col-md-4 col-12 mb-3">
+                <div class="card border border-1 ">
+                  <div class="card-body px-4 py-5">
+                    <img src="images/partners/ycombinator-logo.png" alt="YC" width="9%">
+                    <p class="py-4">As YC's first Nigerian startup Paystack leads the charge of great companies coming out of Africa, powering modern payments for an entire continent.</p>
+                    <div class="row">
+                      <div class="col-3">
+                        <img src="images/partners/michael-siebel-headshot.jpeg" alt="stripe CEO" class="rounded-circle" width="90%">
+                      </div>
+                      <div class="col-9">
+                        <span class="fw-bold">Michael Siebel</span> <br>
+                        <span style="font-size: 13px;">CEO, Partner, Y Combinator</span>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+            </div>
+      </section>
+      <!-- Last section -->
+      <section class="sectin-4 py-5">
+        <div class="container">
+          <div class="row">
+            <p class="fs-5">Try Paystack Now</p>
+
+            <div class="col-md-6 col-12">
+              <h1 class="fw-bold">Start accepting payments in just 30 minutes</h1>
+            </div>
+            
+            <div class="col-md-6 col-12">
+              <a id="free-act-btn" class="btn btn-success  fw-bold py-3 px-4" href="#">Create a free account</a>
+            </div>
+          </div>
+          <!-- Footer head -->
+          <div class="row d-inline d-md-none">
+            <!-- mobile -->
+            <div class="container pt-5">
+              <div class="col">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Why Paystack
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Why paystack</a></li>
+                    <li><a class="dropdown-item" href="#">Success Rate</a></li>
+                    <li><a class="dropdown-item" href="#">For Enterpreneur</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pricing
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Nigeria</a></li>
+                    <li><a class="dropdown-item" href="#">Ghana</a></li>
+                    <li><a class="dropdown-item" href="#">South Africa</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Developer
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Overview</a></li>
+                    <li><a class="dropdown-item" href="#">Documentation</a></li>
+                    <li><a class="dropdown-item" href="#">Integration</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col">
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Companies</a></li>
+                    <li><a class="dropdown-item" href="#">Subscribe</a></li>
+                    <li><a class="dropdown-item" href="#">Compliance</a></li>
+                    <li><a class="dropdown-item" href="#">Careers</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Deskstop -->
+          <div id="desktop-links" class="row d-none d-md-flex pt-5">
+            <div class="col-md-3 pt-4">
+              <h5 class="fw-semibold ps-4">Why Paystack</h5>
+              <ul>
+                <li><a href="#">Why paystack</a></li>
+                <li><a  href="#">Success Rate</a></li>
+                <li><a  href="#">For Enterpreneur</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-12 pt-4">
+              <h5  class="fw-semibold ps-4">Pricing</h5>
+              <ul>
+                <li><a href="#">Nigeria</a></li>
+                <li><a href="#">Ghana</a></li>
+                <li><a  href="#">South Africa</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-12 pt-4 pt-4">
+              <h5  class="fw-semibold ps-4">Developers</h5>
+              <ul >
+                <li><a  href="#">Overview</a></li>
+                <li><a href="#">Documentation</a></li>
+                <li><a href="#">Integration</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-12 pt-4">
+              <h5  class="fw-semibold ps-4">About</h5>
+              <ul>
+                <li><a  href="#">Companies</a></li>
+                <li><a  href="#">Subscribe</a></li>
+                <li><a  href="#">Compliance</a></li>
+                <li><a  href="#">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="mx-5">
+
+      <footer class="pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-12 pt-4">
+              <h5 class="fw-bold">Contact</h5>
+              <a class="text-decoration-none text-black" href="mailto:ajalapete1@gmail.com">ajalapeter1@gmail.com</a>
+              <div class="row pt-1" id="social-media">
+                <div class="col-1 me-3"><a href=""><i class="bi bi-facebook fs-4"></i></a></div>
+                <div class="col-1 me-3"><a href=""><i class="bi bi-whatsapp fs-4"></i></a></div>
+                <div class="col-1 me-3"><a href=""><i class="bi bi-twitter fs-4"></i></a></div>
+                <div class="col-1 me-3"><a href=""><i class="bi bi-instagram fs-4"></i></a></div>
+              </div>
+            </div>
+            <div class="col-md-3 col-12 pt-4">
+              <h5  class="fw-bold">Lagos</h5>
+              <p class="pe-5" style="line-height: 30px;">126 Joel Ogunnaike Street, Ikeja GRA, Ikeja, <br> Lagos, Nigeria</p>
+              <a class="text-decoration-none" href="tel:+2347067144956">+2347067144967</a>
+            </div>
+            <div class="col-md-3 col-12 pt-4 pt-4">
+              <h5  class="fw-bold">Cape Town</h5>
+              <p class="pe-5" style="line-height: 30px;">HOUSE_OF,<br> Elkay House (4th Floor), <br> 186 Loop St, Cape Town City Centre, <br>
+                Cape Town, 8001, South Africa</p>
+            </div>
+            <div class="col-md-3 col-12">
+              <h5  class="fw-bold">Accra</h5>
+              <p class="pe-5" style="line-height: 30px;">AfricaWorks,<br> 35 Patrice Lumumba Road, Airport Residential Area, Accra, Ghana</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

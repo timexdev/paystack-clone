@@ -1,0 +1,62 @@
+body{
+    color:rgb(1, 27, 51);
+}
+#top-info{
+    background-color: rgb(1, 27, 51);
+}
+
+#top-info p{
+    color: rgb(241, 238, 238);
+}
+.navbar{
+    background-color:rgba(235, 252, 238, 0.938);
+    
+}
+header{
+    right: 0;
+    left: 0;
+    top: 113px;
+    z-index: -2;
+}
+#page-head-content{
+    background-color:rgba(235, 252, 238, 0.979);
+}
+.section-2{
+    background-color: rgb(233, 246, 250);
+}
+.section-3{
+    background-color: rgb(233, 246, 250);
+    
+}
+
+#desktop-links ul{
+    list-style-type: none;
+}
+#desktop-links ul li a{
+    text-decoration: none;
+    color: rgb(1, 27, 51);
+}
+
+#social-media a{
+    color: grey;
+}
+/* RESPONSIVENESS */
+/* FOR DESKTOP DEVICE */
+@media (min-width:768px) {
+    #simp{
+        font-size: 20px;
+        letter-spacing: -0.2px;
+        font-weight: 400;
+    }
+    #free-act-btn{
+        float: right;
+    }
+}
+
+/* FOR MOBILE DEVICE */
+@media (max-width:768px) {
+    #free-act-btn{
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+}
